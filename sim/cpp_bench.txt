@@ -1,0 +1,10 @@
+# C++ benchmark: 500,000-message ITCH stream (16.5 MB), Intel Xeon @ 2.10GHz (shared 2-vCPU cloud VM), g++ 13 -O3 -march=native
+# final version: flat sorted-vector price levels + cache-sized open-addressing order map
+throughput: 39.7 ns/message  (25.2 M messages/s, 6.63 Gbit/s of ITCH)
+latency per message (timer overhead 23 ns removed): p50 43 ns  p90 104 ns  p99 247 ns  p99.9 436 ns  max 400151 ns
+throughput: 39.2 ns/message  (25.5 M messages/s, 6.73 Gbit/s of ITCH)
+latency per message (timer overhead 23 ns removed): p50 42 ns  p90 104 ns  p99 247 ns  p99.9 428 ns  max 386879 ns
+throughput: 38.9 ns/message  (25.7 M messages/s, 6.78 Gbit/s of ITCH)
+latency per message (timer overhead 24 ns removed): p50 43 ns  p90 121 ns  p99 267 ns  p99.9 450 ns  max 504288 ns
+
+# for comparison, first version (std::map levels, 1M-slot / 24 MB order map): ~48 ns/message, p90 ~204 ns, p99 ~390 ns

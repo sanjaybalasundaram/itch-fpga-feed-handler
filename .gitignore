@@ -1,0 +1,8 @@
+sim/stream.hex
+sim/*.vvp
+sim/actual.txt
+sim/expected.txt
+sim/synth.log
+__pycache__/
+cpp/build/
+sim/cpp_actual.txt

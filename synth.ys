@@ -1,0 +1,4 @@
+# Yosys synthesis for a Xilinx 7-series FPGA (e.g. Artix-7) - resource estimate
+read_verilog rtl/itch_parser.v rtl/order_book.v rtl/feed_handler_top.v
+synth_xilinx -top feed_handler_top -family xc7
+tee -o sim/synth_report.txt stat

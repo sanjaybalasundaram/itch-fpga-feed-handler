@@ -1,0 +1,7 @@
+bytes 660045
+messages_parsed 20000
+book_messages 17027
+bbo_updates 6240
+latency_cycles_min 4
+latency_cycles_max 5
+latency_cycles_avg 4.16

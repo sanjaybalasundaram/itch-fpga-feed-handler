@@ -1,0 +1,9 @@
+messages 20000
+bytes 660045
+bbo_updates 6240
+add 3555
+cancel 2368
+delete 2622
+exec 6365
+noise 2971
+replace 2117

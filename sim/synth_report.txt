@@ -1,0 +1,95 @@
+
+5. Printing statistics.
+
+=== $paramod$ba5baf0904e02d54a3004fdac5d25b634d25a6ca\order_book ===
+
+   Number of wires:               7486
+   Number of wire bits:          23116
+   Number of public wires:         173
+   Number of public wire bits:    5056
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              17095
+     CARRY4                         96
+     DSP48E1                         4
+     FDRE                         4432
+     INV                             1
+     LUT1                          481
+     LUT2                          612
+     LUT3                          353
+     LUT4                         1341
+     LUT5                          377
+     LUT6                         5378
+     MUXF7                        2904
+     MUXF8                        1113
+     RAMB18E1                        3
+
+=== feed_handler_top ===
+
+   Number of wires:                 37
+   Number of wire bits:            804
+   Number of public wires:          22
+   Number of public wire bits:     534
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                272
+     $paramod$ba5baf0904e02d54a3004fdac5d25b634d25a6ca\order_book      1
+     BUFG                            1
+     IBUF                           59
+     OBUF                          210
+     itch_parser                     1
+
+=== itch_parser ===
+
+   Number of wires:                346
+   Number of wire bits:            974
+   Number of public wires:          18
+   Number of public wire bits:     328
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                671
+     CARRY4                         25
+     FDRE                          317
+     INV                            20
+     LUT2                           34
+     LUT3                           18
+     LUT4                          141
+     LUT5                           52
+     LUT6                           51
+     MUXF7                           9
+     MUXF8                           4
+
+=== design hierarchy ===
+
+   feed_handler_top                  1
+     $paramod$ba5baf0904e02d54a3004fdac5d25b634d25a6ca\order_book      1
+     itch_parser                     1
+
+   Number of wires:               7869
+   Number of wire bits:          24894
+   Number of public wires:         213
+   Number of public wire bits:    5918
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              18036
+     BUFG                            1
+     CARRY4                        121
+     DSP48E1                         4
+     FDRE                         4749
+     IBUF                           59
+     INV                            21
+     LUT1                          481
+     LUT2                          646
+     LUT3                          371
+     LUT4                         1482
+     LUT5                          429
+     LUT6                         5429
+     MUXF7                        2913
+     MUXF8                        1117
+     OBUF                          210
+     RAMB18E1                        3
+
